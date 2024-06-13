@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use Illuminate\Pagination\Paginator; // tambahkan baris kode ini
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
